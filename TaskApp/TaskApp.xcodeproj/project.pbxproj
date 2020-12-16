@@ -13,6 +13,10 @@
 		AC520EFF2589FD9200501C05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC520EFE2589FD9200501C05 /* Preview Assets.xcassets */; };
 		AC520F012589FD9200501C05 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC520F002589FD9200501C05 /* Persistence.swift */; };
 		AC520F042589FD9200501C05 /* TaskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC520F022589FD9200501C05 /* TaskApp.xcdatamodeld */; };
+		AC520F0F2589FF9E00501C05 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC520F0E2589FF9E00501C05 /* Home.swift */; };
+		AC520F12258A001500501C05 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC520F11258A001500501C05 /* HomeViewModel.swift */; };
+		AC520F15258A00F800501C05 /* NewDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC520F14258A00F800501C05 /* NewDateView.swift */; };
+		AC520F18258A0BD500501C05 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC520F17258A0BD500501C05 /* DateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AC520F002589FD9200501C05 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AC520F032589FD9200501C05 /* TaskApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskApp.xcdatamodel; sourceTree = "<group>"; };
 		AC520F052589FD9200501C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC520F0E2589FF9E00501C05 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AC520F11258A001500501C05 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AC520F14258A00F800501C05 /* NewDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDateView.swift; sourceTree = "<group>"; };
+		AC520F17258A0BD500501C05 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		AC520EF62589FD9100501C05 /* TaskApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC520F0D2589FF8200501C05 /* ViewModel */,
+				AC520F0C2589FF7D00501C05 /* View */,
 				AC520EF72589FD9100501C05 /* TaskAppApp.swift */,
 				AC520EF92589FD9100501C05 /* ContentView.swift */,
 				AC520EFB2589FD9200501C05 /* Assets.xcassets */,
@@ -73,6 +83,24 @@
 				AC520EFE2589FD9200501C05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC520F0C2589FF7D00501C05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC520F0E2589FF9E00501C05 /* Home.swift */,
+				AC520F14258A00F800501C05 /* NewDateView.swift */,
+				AC520F17258A0BD500501C05 /* DateButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC520F0D2589FF8200501C05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC520F11258A001500501C05 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +173,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC520F042589FD9200501C05 /* TaskApp.xcdatamodeld in Sources */,
+				AC520F12258A001500501C05 /* HomeViewModel.swift in Sources */,
 				AC520F012589FD9200501C05 /* Persistence.swift in Sources */,
+				AC520F0F2589FF9E00501C05 /* Home.swift in Sources */,
 				AC520EFA2589FD9100501C05 /* ContentView.swift in Sources */,
+				AC520F18258A0BD500501C05 /* DateButton.swift in Sources */,
+				AC520F15258A00F800501C05 /* NewDateView.swift in Sources */,
 				AC520EF82589FD9100501C05 /* TaskAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
